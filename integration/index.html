@@ -2,23 +2,42 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Ma page web</title> 
+  <title>Mon portefolio</title> 
 </head>
+
 <body>
-  <header>
-    <img src="https://via.placeholder.com/1400x200" alt="img1" />
-    <p>Lorem Ipsum dolor sit amet</p>
-  </header>
 
-  <section>
-    <h1>Lorem Ipsum dolor sit amet</h1>
-    <img src ="https://via.placeholder.com/400" alt="img2">
-  </section>
-  <section>
-    <h1>Lorem ipsum dolor</h1>
-  </section>
-  <footer>
+    <header>
+      <img src="https://via.placeholder.com/1400x200" alt="taille d'image qui servira au Hero" />
+      <p>Lorem Ipsum dolor sit amet</p>
+    </header>
 
-  </footer>
+    <section>
+      <h1>Lorem Ipsum dolor sit amet</h1>
+      <img src ="https://via.placeholder.com/400" alt="image test de taille">
+    </section>
+  
+    <section>
+      <p>Lien vers le site de Google <a href="https://www.google.fr/">Juste ici</a></p>
+    </section>
+  
+    <footer>
+      <form method ="post" action="partiephp">
+        <fieldset>
+          <legend> Posez moi vos questions!</legend>
+          <label for="nom">Votre nom</label>
+          <input type="text" name="nomphp" id="nom" autofocus /><br />
+          <label for="prenom">Votre prénom</label>
+          <input type="text" name="prenomphp" id="prenom" size="50" /><br />
+          <label for="mail">Votre mail</label>
+          <input type="email" name="mailphp" id="mail" maxlength="100" placeholder="bidule@bidule.com"/><br />
+          <label for="question">C'est à vous</label><br />
+          <textarea name="questionphp" id="question" placeholder="Pas plus de 500 caractères" 
+          rows="10" cols="70">Pas plus de 500 caractères</textarea>
+
+        </fieldset>
+            
+      </form>  
+    </footer>
 </body>
 </html>
