@@ -1,0 +1,51 @@
+body {
+    box-sizing:border-box;
+    background-color: darkgrey;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container2 {
+    text-align:center;
+    margin-top:30px;
+}
+
+header {
+    line-height: 0;
+}
+
+
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 3px;
+}
+
+img:hover {
+    opacity:0.5;
+}
+
+section:nth-child(2) {
+    filter:grayscale(100%);
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color:lightgrey;
+    }
+
+    img {
+        width:70%;
+    }
+}
